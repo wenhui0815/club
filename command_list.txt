@@ -1,6 +1,6 @@
 * VScode指令
 
-	- 編譯指令： Ctrl + alt + B
+	- 編譯指令： Ctrl + Shift + B
 	- 開啟終端機： Ctrl + Shift + ~
 	- RUN指令： 輸入./檔名.exe後按下你的Enter鍵後執行
 	- 編譯多個檔案： g++ -g 要共同編譯的檔案1 要共同編譯的檔案2 要共同編譯的檔案3 -o 執行黨名稱(自訂).exe
