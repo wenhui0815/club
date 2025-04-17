@@ -2,20 +2,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build with g++",
+            "label": "Build",
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g",
-                "${file}",
+                "${file}",  // 當前打開的檔案
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-Wall",    // 啟用所有警告
+                "-g"        // 產生偵錯資訊
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"],
-            "detail": "Generated task for g++ compilation"
+            "problemMatcher": ["$gcc"]
         }
     ]
+}

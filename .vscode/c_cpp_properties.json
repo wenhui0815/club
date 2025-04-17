@@ -24,8 +24,7 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            },
-            "compilerPath": "C:\\MinGW\\bin\\g++.exe"
+            }
         }
     ],
     "version": 4

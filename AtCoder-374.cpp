@@ -4,6 +4,5 @@ int main(){
     double A, B;
     cin >> A >> B;
     double S = B/A;
-    cout << fixed << setprecision(3);
-    cout << S << endl;
+    cout << fixed << setprecision(3) <<  S <<endl;
 }
