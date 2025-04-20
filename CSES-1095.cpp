@@ -1,3 +1,4 @@
+//快速冪演算法
 #include <bits/stdc++.h>
 using namespace std;
 
